@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: rgb(63, 52, 52);
+  display: flex;
+  border-bottom: rgb(87, 221, 87) solid 10px;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.link{
+  display: flex;
+  margin-left: 10px;
+  width: 15%;
+  justify-content: space-between;
+ 
+}
+
+.search{
+  display: flex;
+  color: white;
+  margin-right: 10%;
+  width: 20%;
+  justify-content: space-between;
+  
+}
+
+.search>button{
+  background-color: rgb(87, 221, 87);
+  padding: 5px;
+}
+
+
+
