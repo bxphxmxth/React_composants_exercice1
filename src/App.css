@@ -40,6 +40,7 @@
 *{
   margin: 0;
   padding: 0;
+  
 }
 
 header{
@@ -72,5 +73,36 @@ header{
   padding: 5px;
 }
 
+body{
+  background-color: rgb(63, 52, 52);
 
+}
+
+.section1{
+  background-color: rgb(63, 52, 52);
+  border: red solid;
+}
+
+.tartine{
+  display: flex;
+  border: green solid;
+  margin: auto;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 10%;
+  background-color: rgb(63, 52, 52);
+  color: white;
+
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+}
+
+h1{
+  color:rgb(87, 221, 87);
+  
+
+}
 
