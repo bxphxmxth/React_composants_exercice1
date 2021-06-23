@@ -1,21 +1,19 @@
-import logo from './logo.svg';
-import Header from "./components/Header"
-import Section1 from "./components/Section1"
-import Footer from "./components/Footer"
-import './App.css';
+import React, { Fragment } from 'react';
+import Header from './Header';
+import Footer from './Footer';
+import Body from './Body';
+import './css/app.css'
 
-function App() {
-  return (
-
-    <div>
-
-      <Header/>
-      <Section1/>
-      <Footer/>
-
-      
-    </div>
-  );
+function App(){
+   
+    return(
+        <Fragment>
+            <Header/>
+            <Body/>
+            <Footer/>
+        </Fragment>
+    )
 }
+
 
 export default App;
