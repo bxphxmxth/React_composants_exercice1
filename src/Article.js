@@ -3,6 +3,7 @@ import './css/article.css';
 import toast from './images/toast.jpg'
 
 class Article extends React.Component {
+    nombreArticles = 2;
     render() {
         return (
             <Fragment>
